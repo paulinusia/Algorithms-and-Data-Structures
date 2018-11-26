@@ -1,0 +1,13 @@
+1. A jumble of a word w is obtained by rearranging the letters of the word in some random order.
+For example, if w = “tpra”, then “rapt”, “part”, “trap”, “ptra” are some of the jumbled words you
+can get out of w. Of these rapt, part, and trap are legit words in the dictionary whereas tpra and
+ptra are not. Given a String w, the goal is to find if some jumble of w will give a legit word in the
+dictionary, and if so output at least one of those; otherwise, say that w does not have a legit
+jumbled word in the dictionary. Example: w =”ogd”, the answer is “god” or “dog”; if w = “pttt”,
+then w does not have a legit jumbled word in the dictionary. You can use our
+EnglishWordList.txt as the reference dictionary for valid/legit words. The given String can be of
+any length and you can assume it only has lowercase alphabetic characters.
+public void isValidJumble( String s)
+2. Using the dictionary of words in the file EnglishWordList.txt, and using hashing, find and print
+the number of duplicate words and how many times they are duplicated. For instance, if “cat”
+appears 5 times in the file, then you would print cat 5
